@@ -7,9 +7,11 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "deploy": "gh-pages -d public"
+    "build": "node build.js",
+    "deploy": "push-dir --dir=build --branch=gh-pages"
   },
   "dependencies": {
-    "gh-pages": "^1.1.0"
+    "fs-extra": "^5.0.0",
+    "push-dir": "^0.4.1"
   }
 }
