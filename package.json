@@ -1,0 +1,12 @@
+{
+  "name": "ykpythemind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/ykpythemind/ykpythemind.git",
+  "author": "Yukito Ito <yukibukiyou@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "gh-pages": "^1.1.0"
+  }
+}
