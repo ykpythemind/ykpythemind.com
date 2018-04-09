@@ -1,0 +1,68 @@
+/* General Blueprint Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0;}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    /*color: #47a3da;*/
+		color:#fff;
+		background-color: #111;
+		/*background-image:url(../img/bisbig.jpg);*/
+	padding: 1rem 0 3rem 2px;
+}
+
+
+
+a {
+	color: #ff6699;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #f54b83;
+}
+
+.main {
+	width: 95%;
+	/*max-width: 69em;*/
+
+	margin: 0 auto;
+  font-size: 2.6rem;
+}
+
+h1{ font-size: 16rem;}
+
+
+
+
+
+/* Example Media Queries */
+
+@media screen and (max-width: 47.2em) {
+
+body{
+	/*background: no-repeat center center;
+	background-image:url(../img/bissmart.jpeg);
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;*/
+	}
+  h1{font-size: 12rem;}
+  .main {
+  	width: 95%;
+  	/*max-width: 69em;*/
+
+  	margin: 0 auto;
+    font-size: 1.3rem;
+  }
+
+}

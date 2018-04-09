@@ -1,0 +1,438 @@
+/*
+style.css
+*/
+
+
+	body {
+		font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "MS P明朝", "MS 明朝", serif;
+		background:#fff;
+		color:#010101;
+	}
+
+a:link{ color:#ababab;}
+	a:visited { color: #ababab; }
+a:hover { color: #111; }
+a:active { color: #ababab; }
+
+
+	.align-right {
+		text-align:right;
+	}
+
+	.align-center {
+		text-align:center;
+	}
+
+	.align-left {
+		text-align:left;
+	}
+
+	.bold {
+		font-weight:700;
+	}
+
+	.relative {
+		position:relative;
+	}
+
+  .gray{ color:#dbdbdb; font-size:0.955em;}
+
+	.lyricsimg{ margin:auto;
+height:100vmin; }
+
+#extrasection div div{ font-size:0.7em;   /*display:none;*/  /*  aaaa */ }
+
+
+
+	h2 {
+		text-transform:uppercase;
+		font-weight:500;
+		font-size:2.375em;
+		padding-top: 0.2em;
+		margin: 0.83em 0 0.83em -10px;
+	 /*border-bottom: 1px solid #dbdbdb;*/
+	}
+
+	h4 { font-size:1.2em; display: inline; }
+
+#jacketpic{ border:1px solid #ededed ; }
+#profile_section img{border:1px solid #ededed ; }
+
+  #main{ padding-top:90px;  }
+
+	#nav {
+		position:fixed;
+		width:100%;
+		/*border-top:6px solid #ebebeb;*/
+		border-bottom:2px solid #ededed;
+		text-transform:uppercase;
+		font-weight:600;
+		font-size:1.125em;
+		padding:10px 0 10px 0;
+		background:#fff;
+		z-index:999;
+    height: 3.2em; //1.2+1+1
+    min-height:100px;
+	}
+
+	#nav ul {
+		padding:0;
+		margin:0;
+	}
+
+	#nav li {
+		display:inline-block;
+		padding:1em 0.5em;
+	}
+
+	.lt-ie8 {
+		display:inline;
+		zoom:1;
+	}
+
+
+	#nav a {
+		color:#333333;
+		text-decoration:none;
+	}
+
+	#nav a:hover {
+		border-bottom:4px solid #ebebeb;
+	}
+
+  #tops a {
+    text-decoration:none;
+  }
+
+#tops a:hover{
+    border:0px;
+  }
+
+	#main-menu {
+		padding-top:5.688em;
+	}
+
+
+	#awesomeness {
+		margin-top:1em;
+    font-size:1.375em;
+    font-weight:300;
+		padding:0.5em 0;
+		background:#fff;
+	}
+
+  #awesomeness p{ font-size: 0.8em; }
+
+	#awesomeness blockquote{ font-size: 0.8em; }
+
+
+	#awesomeness .btn {
+		background:#fff;
+		padding:0.75em 1em;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+		border:1px solid #333;
+		font-size:0.8em;
+		color:#111;
+		line-height:1em;
+		font-weight:600;
+		text-align:center;
+		text-decoration:none;
+		display:block;
+		margin-bottom:0.5em;
+	}
+	#awesomeness .btn:hover {
+		background: #ededed;
+	}
+
+
+	#coverart .grid_2 div{
+		 /* bottom:0px; left:0px; */
+		 top : 30px;
+
+		 left: 0px;
+			position: absolute;
+	}
+
+	#coverart #top_title{ padding-top:10px; max-width:400px;  }
+	#coverart #top_list{ padding-top:90px; }
+	#coverart #top_name{ top : -10px; right:0px; max-width:200px;
+	 position: absolute; }
+
+#specialthanks{ margin-top:1em; }
+
+#extrasection div{ margin-top:2em; }
+
+	.reco{
+		background:#fff;
+		margin: 0.5em 0.2em 1em 0.2em;
+		padding:1.75em ;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+		border:0px solid #dbdbdb; /*333*/
+		border-bottom: 1px solid #dcdcdc;
+		font-size:1em;
+		color:#111;
+		/*line-height:1em;*/
+		text-align:left;
+		text-decoration:none;
+		display:block;
+	}
+
+
+	#recoouter div:first-child{ margin-top: 0px;}
+
+	.recobody{ text-align: left; margin-top:1em;}
+  .reconame{ text-align: right; margin-top: 0.6em ;}
+
+
+	.ly{
+		background:#fff;
+		margin: 0em 0.5em 2em 0.5em;
+		padding:2px;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+		/*border:1px solid #333;*/
+		font-size:1em;
+		/*line-height:1em;*/
+		text-align:left;
+		text-decoration:none;
+		display:block;
+	}
+
+.ly h4 a:link, a:visited, a:hover{ color:#111; text-decoration: none;}
+.ly h4 a:hover{ color:#111; text-decoration: underline ;}
+
+	.footer {
+		margin-top:1em;
+		border-top:1px solid #c6c6c6;
+		padding:2em 0;
+		font-size:0.7em;
+		color:#777;
+	}
+
+	.footer a{
+		text-decoration:none;
+		color:#888;
+	}
+
+	.footer a:hover {
+		text-decoration:underline;
+	}
+
+	#mobileMenu {
+		display:none;
+	}
+
+	.showmb{display:none;}
+
+/* =============================================================================
+   Media Queries
+   ========================================================================== */
+
+/* Tablet Portrait size to Base 996px */
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+	#nav {
+		font-size:0.938em;
+	}
+		#coverart #top_list{ padding-top:60px; }
+		#coverart #top_name img{ width:80%;}
+#profile_section h3{ margin-top: 1px; padding-top:0px;}
+		.myportlaitouter img{ max-width:210px; width:210px;}
+}
+
+
+/* All Mobile Sizes */
+@media only screen and (max-width: 767px) {
+	 #nav .grid_9 {
+		display:none;
+	}
+	#cresection .cred{ display:none;}
+
+	#coverart .grid_5{ display:none; }
+
+
+  #awesomeness p{ font-size: 0.6em; }
+
+	.dontshowmb{ display:none;}
+	.showmb{ display:inline;}
+
+	#specialthanks{ margin-top:2em;}
+
+	#profile_section .grid_4{ text-align:center ;}
+
+	#mobileMenu {
+		display:block;
+		position:fixed;
+		width:100%;
+		z-index:1000;
+	}
+
+	#nav{
+		text-align:center;
+	}
+
+	#nav {
+		position:relative;
+		padding-top:3.375em;
+		border:0px;
+	}
+
+    .no-js #nav {
+        padding-top:1em;
+    }
+
+	#nav img {
+		display:block;
+		margin:0 auto;
+		position: relative;
+	}
+
+#mobileMenu a:link{ color:#111;}
+#mobileMenu  a:hover{ color:#111;}
+#mobileMenu  a:visited{ color:#111;}
+
+	#main {
+		padding:0;
+	}
+
+	.banner span {
+		line-height:1em;
+		font-size:1em;
+	}
+
+	#awesomeness {
+		margin-top: 0px;
+		text-align:center;
+		font-size:1.2em;
+	}
+	#awesomeness .grid_9{ margin-top:0.8em; }
+
+.mbspace{ padding-top:1.2em; }
+
+	#awesomeness .btn {
+		margin: 0.5em auto;
+		width:160px;
+		font-size:0.8em;
+
+	}
+
+	#nav ul {
+		text-align: center;
+		font-size:0.6em;
+		line-height: 1.5em;
+	}
+
+	#nav ul li {
+		padding:0.25em;
+	}
+
+	table tr th,
+	table tr td {
+	  padding: 2px 0 2px 4px;
+	}
+
+	h2 {
+		font-size:2em;
+		text-align: center;
+		margin: 0.83em 0 0.3em 0;
+	}
+
+	.reco{ font-size:1em;
+		margin:0.5em 0.2em 1em 0.2em;
+		padding: 1em;
+	}
+
+
+	.ly{ font-size:0.9em; }
+
+
+	#animation {margin-left:0px;}
+
+#extrasection{margin-top:2em;}
+#extrasection div{ margin-top:1em; }
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.reco { font-size:1em; }
+.ly { font-size:1em; }
+
+
+
+}
+
+/*   479   480-767  */
+
+/* Mobile Portrait Size to Mobile Landscape Size */
+@media only screen and (max-width: 479px) {
+	.reco{ font-size:1em;
+		margin:0.5em 0em 1em 0em;
+		padding: 1em 8px 1em 8px;
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+		border-width: 0px 0px 1px 0px;
+	}
+		.ly{ font-size:1em; }
+	.recobody{ padding-top:0.6em;}
+		#recosection .grid_12{ padding: 0px;  width: 300px;}
+
+ }
+
+
+
+
+
+
+/* ------------- animation  ---------------- */
+
+#animation {
+	margin-left: 0px;
+}
+
+.fadeInDown {
+ -webkit-animation-fill-mode:both;
+ -ms-animation-fill-mode:both;
+ animation-fill-mode:both;
+ -webkit-animation-duration:0.7s;
+ -ms-animation-duration:0.7s;
+ animation-duration:0.7s;
+ -webkit-animation-name: fadeInDown;
+ animation-name: fadeInDown;
+ visibility: visible !important;
+}
+@-webkit-keyframes fadeInDown {
+ 0% { opacity: 0; -webkit-transform: translateY(-10px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); }
+}
+@keyframes fadeInDown {
+ 0% { opacity: 0; -webkit-transform: translateY(-10px); -ms-transform: translateY(-10px); transform: translateY(-10px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+}
+
+
+.fadeOutUp {
+ -webkit-animation-fill-mode:both;
+ -ms-animation-fill-mode:both;
+ animation-fill-mode:both;
+ -webkit-animation-duration:0.7s;
+ -ms-animation-duration:0.7s;
+ animation-duration:0.7s;
+ -webkit-animation-name: fadeOutUp;
+ animation-name: fadeOutUp;
+ visibility: visible !important;
+}
+@-webkit-keyframes fadeOutUp {
+ 0% { opacity: 1; -webkit-transform: translateY(0px); }
+ 100% { opacity: 0; -webkit-transform: translateY(-10px); }
+}
+@keyframes fadeOutUp {
+ 0% { opacity: 1; -webkit-transform: translateY(0px); -ms-transform: translateY(0px); transform: translateY(0px); }
+ 100% { opacity: 0; -webkit-transform: translateY(-10px); -ms-transform: translateY(-10px); transform: translateY(-10px); }
+}
