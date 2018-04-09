@@ -15,19 +15,31 @@ h1 {
   font-size: 5em;
   margin: 0px;
 }
+.container_top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   flex-flow: column;
+  overflow-x: scroll;
 }
 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul.top {
   margin: 5px;
   list-style: none;
   padding: 0px;
 }
-li {
+.top li {
   margin: 2px 0 2px;
 }
 a {
@@ -35,6 +47,10 @@ a {
 }
 
 article {
-  margin-top: 2rem;
   max-width: 500px;
+}
+
+footer a {
+  color: #cc8ef7;
+  font-size: 0.8rem;
 }
