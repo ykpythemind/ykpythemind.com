@@ -7,10 +7,12 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "dev": "yarn run browser-sync start --server src",
     "build": "node build.js",
-    "deploy": "push-dir --dir=build --branch=gh-pages"
+    "deploy": "push-dir --dir=dist --branch=gh-pages"
   },
   "dependencies": {
+    "browser-sync": "^2.23.6",
     "fs-extra": "^5.0.0",
     "push-dir": "^0.4.1"
   }
