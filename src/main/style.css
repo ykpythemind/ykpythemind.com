@@ -50,6 +50,10 @@ article {
   max-width: 500px;
 }
 
+footer {
+  margin-top: 2rem;
+}
+
 footer a {
   color: #cc8ef7;
   font-size: 0.8rem;
