@@ -1,0 +1,60 @@
+html {
+  font-size: 13px;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+h1 {
+  padding: 2px;
+  font-size: 5em;
+  margin: 0px;
+}
+.container_top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-flow: column;
+  overflow-x: scroll;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul.top {
+  margin: 5px;
+  list-style: none;
+  padding: 0px;
+}
+.top li {
+  margin: 2px 0 2px;
+}
+a {
+  color: #8421dd;
+}
+
+article {
+  max-width: 500px;
+}
+
+footer {
+  margin-top: 2rem;
+}
+
+footer a {
+  color: #cc8ef7;
+  font-size: 0.8rem;
+}
